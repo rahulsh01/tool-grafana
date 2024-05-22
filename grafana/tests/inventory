@@ -1,0 +1,4 @@
+[myserver]
+localhost ansible_host=localhost ansible_user=rahulsharma
+
+#asbserver ansible_host=3.111.218.95 ansible_user=ubuntu
