@@ -1,4 +1,2 @@
-[myserver]
-localhost ansible_host=localhost ansible_user=rahulsharma
 
-#asbserver ansible_host=3.111.218.95 ansible_user=ubuntu
+ubuntu ansible_host=13.127.121.136 ansible_ssh_user=ubuntu ansible_private_key_file=/var/lib/jenkins/grafana.pem
