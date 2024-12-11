@@ -1,0 +1,6 @@
+---
+- hosts: asbserver
+  gather_facts: yes
+  become: true
+  roles:
+    -  /home/rahulsharma/ninja/ansible_assignment/rahul-assignment-05/Ansible-Role-Grafana/prometheus

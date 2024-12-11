@@ -1,13 +1,11 @@
 ---
 - name: Tests Grafana role
-  hosts: localhost
+  hosts: all
   gather_facts: yes
   connection: local 
   become: true
+  vars:
+   ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
   roles:
-    - /home/rahulsharma/ninja/ansible_assignment/rahul-assignment-05/Ansible-Role-Grafana/grafana
+    - grafana
 
-#- hosts: asbserver
-#  remote_user: root
-#  roles:
-#    - grafana

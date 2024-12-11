@@ -1,0 +1,13 @@
+---
+- name: Tests Grafana role
+  hosts: localhost
+  gather_facts: yes
+  connection: local 
+  become: true
+  roles:
+    - /home/rahulsharma/ninja/ansible_assignment/rahul-assignment-05/Ansible-Role-Grafana/grafana
+
+#- hosts: asbserver
+#  remote_user: root
+#  roles:
+#    - grafana
